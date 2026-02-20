@@ -1,0 +1,7 @@
+﻿services:
+  tersapp:
+    image: tersapp
+    build:
+      context: .
+      dockerfile: TersApp/Dockerfile
+
